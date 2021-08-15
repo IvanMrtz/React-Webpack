@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: rgb(15, 15, 22);
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
+
+#root {
+  height: 100%;
+}
+
+input {
+  padding: 15px;
+  background: none;
+  border: 1px solid rgb(64, 67, 255);
+  text-indent: 8px;
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.horizontal-space-around {
+  flex-direction: row;
+  justify-content: space-around;
+}
+.vertical-space-around {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.horizontal-space-evenly {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.vertical-space-evenly {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.horizontal-center {
+  justify-content: center;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.white {
+  color: white;
+}
